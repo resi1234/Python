@@ -1,0 +1,10 @@
+import numpy as np
+#creating single dimen array
+a=np.array([1,2,3,55,4])
+print(a)
+#another
+b=np.array([44,77,1,88])
+print(b)
+#creating 2d array
+x=np.array([[2,33],[34,56]])
+print(x)
