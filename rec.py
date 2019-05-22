@@ -14,5 +14,6 @@ while True:
     web=s.recvfrom(100)
     print(web) 
  #reply to sender
-    s.sendto("okay".encode)
+    s.sendto("okay".encode('ascii'))
+    
 
